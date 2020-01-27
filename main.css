@@ -1,0 +1,132 @@
+body {
+    background-color:lightskyblue;
+    margin: 0;
+    background-size: 16px 48px;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex-box;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    position: top;
+    box-shadow: 3px 3px darkgrey;
+}
+
+.nav-button-container {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    float: right;
+    justify-content: center;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    width: 90px;
+    padding: 5px;
+    margin: 10px;  
+    float: right;
+    text-align: center;
+    color: white;
+    font-family: 'Bitter', serif;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+}
+
+/* Sign-Up Form Container */
+/* Form Style */
+
+h2 {
+    margin-left: 20px;
+    font-family: 'Bitter', serif;
+}
+
+.form-box {
+    margin: 50px auto;
+    width: 285px;
+    height: 395px;
+    border: 2px solid black;
+    box-shadow: 5px 5px darkgray;
+    background-color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.form {
+    margin: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Bitter', serif;
+}
+
+.input-box {
+    margin: 10px;
+    height: 28px;
+    width: 80%;
+    border-style: none;
+    border-radius: 5px;
+    font-family: 'Bitter', serif;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+}
+
+.input-box::placeholder {
+    font-family: 'Bitter', serif;
+    padding-left: 8px;
+}
+
+.input-box:focus::placeholder {
+    color: transparent;
+}
+
+.submit-button {
+    margin-top: 20px;
+    height: 28px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    font-family: 'Bitter', serif;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.submit-button:hover {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid gray;
+}
+
+/* Icon Images */
+
+.image-container {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.image-container a {
+    text-decoration: none;
+}
+
+.link-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; 
+    padding: 0 5px 0 5px;
+}
